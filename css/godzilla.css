@@ -12,9 +12,9 @@
   --main-section-padding-bottom: 100px;
   --main-section-background: #ECECEC;
 }
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+}
 body {
   font-family: "Cairo", sans-serif;
 }
