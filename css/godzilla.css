@@ -1582,3 +1582,10 @@ ul {
   }
 }
 /* End Animation */
+/* Start Media */
+@media (max-width: 1199px) {
+  .dots {
+    display: none;
+  }
+}
+/* End Media */
