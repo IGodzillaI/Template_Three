@@ -5,9 +5,11 @@ function setTheme(theme) {
   document.documentElement.classList.add("no-transitions");
   document.documentElement.setAttribute("data-theme", theme);
   localStorage.setItem("theme", theme);
+
   if (themeIcon) {
     themeIcon.className = theme === "dark" ? "fas fa-sun fa-fw" : "fas fa-moon fa-fw";
   }
+
   requestAnimationFrame(() => {
     requestAnimationFrame(() => {
       document.documentElement.classList.remove("no-transitions");
